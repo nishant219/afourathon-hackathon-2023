@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "AFOURATHON-2023 is a GitHub repository dedicated to the AFOURATHON 2023 event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant219/afourathon-2023Hackathon.git"
+  },
+  "author": "Nishant and Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant219/afourathon-2023Hackathon/issues"
+  },
+  "homepage": "https://github.com/nishant219/afourathon-2023Hackathon#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
