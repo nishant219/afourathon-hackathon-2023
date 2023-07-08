@@ -11,6 +11,8 @@ AFOURATHON-2023 is a GitHub repository dedicated to the AFOURATHON 2023 event. T
 
 The project aims to provide a secure and user-friendly system for web applications. It incorporates various essential features to facilitate a seamless user experience. Here's an overview of the key functionalities:
 
+-----------------------------------------------------------------------------------------------------------
+
 **Problem Statement 1**  ---  Student Details App
 Build an application that can be run as a container on the cloud for creating/updating/deleting a student
 The functionality of the application is:
@@ -34,6 +36,7 @@ The functionality of the application is:
 3. Persist all subjects in the database    
 
 
+-----------------------------------------------------------------------------------------------------------
 
 
 The project uses Node.js and Express for server-side development, ensuring scalability and flexibility. Cloudinary is employed to handle image uploads, enabling users to set or update their profile picture. Nodemailer, in conjunction with Mailtrap, is utilized to send emails securely for features like password reset notifications.
