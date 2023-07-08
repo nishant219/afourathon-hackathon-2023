@@ -25,6 +25,8 @@ connectionWithDb();
 
 const userRoute=require('./routes/userRoute');
 app.use('/api/v1',userRoute);
+const electiveRoute=require('./routes/electiveRoute');
+app.use('/api/v1/electives',electiveRoute);
 
 
 app.listen(PORT,()=>{
