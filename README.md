@@ -11,22 +11,39 @@ AFOURATHON-2023 is a GitHub repository dedicated to the AFOURATHON 2023 event. T
 
 The project aims to provide a secure and user-friendly system for web applications. It incorporates various essential features to facilitate a seamless user experience. Here's an overview of the key functionalities:
 
+**Problem Statement 1**  ---  Student Details App
+Build an application that can be run as a container on the cloud for creating/updating/deleting a student
+The functionality of the application is:
 
--   **Sign Up**: Users can create a new account by providing their email address, username, and password. The system ensures the uniqueness of the email address and validates the password strength.
-    
--   **Login**: Authenticated users can log in to their accounts using their credentials. The system verifies the user's identity and grants access to protected routes.
-    
--   **Logout**: Logged-in users can choose to log out, terminating their current session and invalidating their access token.
-    
+1. Allow user to add, update, delete a student
+2. Each student should have:
+    -  Student Name
+    -  Student ID Number
+    -  Student Email
+    -  Student Phone Number
+3. Persist all student details in the database
+
+**Problem Statement 2**  ---  Elective Subject App
+Build an application that can be run as a container on the cloud for creating/updating/deleting an elective subject.
+The functionality of the application is:
+1. Allow user to add, update, delete an elective subject
+2. Each elective subject should have:
+     -  Elective Subject Name
+     -  Elective Subject Description
+     -  Elective Subject Code
+3. Persist all subjects in the database    
+
+
 
 
 The project uses Node.js and Express for server-side development, ensuring scalability and flexibility. Cloudinary is employed to handle image uploads, enabling users to set or update their profile picture. Nodemailer, in conjunction with Mailtrap, is utilized to send emails securely for features like password reset notifications.
 
 ## Installation
+```
 git clone <repository_url>
 cd <project_directory>
 npm install
-
+```
 Configure the environment variables:
 - Update the necessary values in the `.env` file, such as the database connection URL, Cloudinary credentials, and email service details.
 
