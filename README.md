@@ -4,7 +4,7 @@
 
 ![My project-1](https://github.com/nishant219/afourathon-hackathon-2023/assets/72811435/2ee097db-dc5d-4ba1-a8c2-92e8c357e885)
 
-## Project Overview
+## Project Overview 🎮
 
 AFOURATHON-2023 is a GitHub repository dedicated to the AFOURATHON 2023 event. This repository serves as the central hub for all the code, resources, and documentation related to the event.
 
@@ -52,11 +52,21 @@ Configure the environment variables:
 
 
 
-## Routes
-
+## 🕸️Routes🕸️
+```
 - `POST /signup`: Create a new user account.
 - `POST /login`: Authenticate and login the user.
 - `GET /logout`: Log out the currently logged-in user.
+```
+
+```
+-  POST /add --> To add a new elective.
+-  GET / --> To get all electives.
+-  GET /id --> To get a single elective based on ID.
+-  Delete /:id --> To delete elective.
+-  Put /update --> To update elective.
+```
+
 
 
 ## Dependencies
